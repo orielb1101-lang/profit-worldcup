@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>תחרות הימורי המונדיאל של פרופיט 2026</title>
+  <meta name="description" content="תחרות הימורי המונדיאל הגדולה של פרופיט — פרסים יומיים, טבלת מובילים חיה, הירשמו עכשיו." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;1,400&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ===================================================
+     HEADER
+     =================================================== -->
+<header class="site-header" id="site-header">
+  <div class="container header-inner">
+
+    <div class="logo">
+      <div class="logo-icon">⚽</div>
+      <span class="logo-text">פרופיט</span>
+    </div>
+
+    <div class="nav-live">
+      <span class="dot"></span>
+      תחרות המונדיאל פתוחה
+    </div>
+
+    <div class="nav-actions">
+      <a href="#register" class="btn-primary">הירשמו</a>
+    </div>
+
+    <button class="nav-burger" onclick="document.getElementById('mobile-nav').classList.toggle('open')">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<nav class="nav-mobile-sheet" id="mobile-nav">
+  <a href="#prizes">פרסים</a>
+  <a href="#leaderboard">טבלת מובילים</a>
+  <a href="#register">הרשמה</a>
+  <a href="#register" class="btn-primary" style="margin-top:8px;justify-content:center;">הירשמו</a>
+</nav>
+
+
+<main>
+
+<!-- ===================================================
+     HERO BAND — canvas bg, display-xl, 6/6 grid
+     =================================================== -->
+<section class="hero-band">
+  <div class="container">
+
+    <div class="hero-left">
+      <div class="hero-eyebrow">
+        <span class="eyebrow-dot"></span>
+        תחרות המונדיאל 2026 — פתוחה עכשיו
+      </div>
+
+      <h1 class="display-xl">
+        הזדמנות של פעם<br/>ב-4 שנים להרוויח<br/>בגדול
+      </h1>
+
+      <p class="hero-lead">
+        משפחת פרופיט היקרה — התחרות הגדולה יוצאת לדרך!
+        השקעה קטנה של 200 ש״ח יכולה להפוך לאלפי שקלים.
+        כל אחד ואחת מכם יכולים לסיים כמנצח הגדול —
+        אז אל תישארו על הספסל!
+      </p>
+
+      <div class="hero-actions">
+        <a href="#register" class="btn-primary-lg">הירשמו</a>
+        <a href="https://links.payboxapp.com/6dvKshijp3b" target="_blank" rel="noopener" class="btn-paybox">
+          <span class="btn-paybox-icon">💳</span>
+          שלמו ב-PayBox
+        </a>
+      </div>
+
+      <p class="hero-note">ללא כרטיס אשראי · מיועד לגילאי 18+</p>
+    </div>
+
+    <!-- hero-illustration-card (dark surface) -->
+    <div class="hero-card">
+      <p class="hero-card-label">פרסי הטורניר</p>
+
+      <div class="prize-list">
+        <div class="prize-row">
+          <span class="prize-medal">🥇</span>
+          <div class="prize-bar-wrap">
+            <div class="prize-bar-fill" style="width:100%"></div>
+          </div>
+        </div>
+        <div class="prize-row">
+          <span class="prize-medal">🥈</span>
+          <div class="prize-bar-wrap">
+            <div class="prize-bar-fill" style="width:50%"></div>
+          </div>
+        </div>
+        <div class="prize-row">
+          <span class="prize-medal">🥉</span>
+          <div class="prize-bar-wrap">
+            <div class="prize-bar-fill" style="width:20%"></div>
+          </div>
+        </div>
+        <div class="prize-row">
+          <span class="prize-medal">🏅</span>
+          <div class="prize-bar-wrap">
+            <div class="prize-bar-fill" style="width:4%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ===================================================
+     HOW IT WORKS — canvas, steps
+     =================================================== -->
+<section class="steps-section section-pad">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">איך זה עובד</span>
+      <h2 class="display-md">4 צעדים לפרס</h2>
+      <p class="section-lead">פשוט, מהיר, ומשתלם. תוך 3 דקות תהיו בתוך המשחק.</p>
+    </div>
+    <div class="steps-grid">
+      <div class="step-item">
+        <div class="step-num">1</div>
+        <h3 class="title-sm">נרשמים</h3>
+        <p>שם, אימייל, טלפון. ללא כרטיס אשראי. 60 שניות ואתם פנימה.</p>
+      </div>
+      <div class="step-item">
+        <div class="step-num">2</div>
+        <h3 class="title-sm">בוחרים נבחרת</h3>
+        <p>בחרו את הנבחרת שתזכה במונדיאל — כל ניצחון שלהם מניב נקודות בונוס.</p>
+      </div>
+      <div class="step-item">
+        <div class="step-num">3</div>
+        <h3 class="title-sm">מנבאים משחקים</h3>
+        <p>לפני כל משחק נבאו את התוצאה. ניחוש מדויק = נקודות מקסימליות.</p>
+      </div>
+      <div class="step-item">
+        <div class="step-num">4</div>
+        <h3 class="title-sm">מנצחים ומרוויחים</h3>
+        <p>עלו בטבלה, זכו בפרסים יומיים, ולחמו על הפרס הגדול בסוף הטורניר.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================================================
+     PRIZES — surface-soft, connector-tile style
+     =================================================== -->
+<section class="prizes-section section-pad" id="prizes">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">הפרסים</span>
+      <h2 class="display-md">פרסים לכל הרמות</h2>
+      <p class="section-lead">פרס גדול לסיום, בונוס תוצאה מדויקת, בונוס מלך שערים ובונוס נבחרת — יש מה לשחק בשבילו.</p>
+    </div>
+
+    <div class="prize-tiles">
+      <div class="prize-tile">
+        <div class="tile-icon">🥇</div>
+        <div class="tile-body">
+          <div class="tile-title">פרס ראשון</div>
+          <div class="tile-sub">פרס גדול למנצח הסופי של הטורניר — מועבר ישירות לחשבון בנק</div>
+        </div>
+      </div>
+      <div class="prize-tile">
+        <div class="tile-icon">🎯</div>
+        <div class="tile-body">
+          <div class="tile-title">בונוס תוצאה מדויקת</div>
+          <div class="tile-sub">נקודות בונוס על ניחוש תוצאה מדויקת — לא רק כיוון הניצחון</div>
+        </div>
+      </div>
+      <div class="prize-tile">
+        <div class="tile-icon">👑</div>
+        <div class="tile-body">
+          <div class="tile-title">בונוס מלך שערים</div>
+          <div class="tile-sub">נקודות בונוס למי שניחש נכון את מלך השערים של הטורניר</div>
+        </div>
+      </div>
+      <div class="prize-tile">
+        <div class="tile-icon">⚽</div>
+        <div class="tile-body">
+          <div class="tile-title">בונוס נבחרת</div>
+          <div class="tile-sub">נקודות כפולות לכל ניצחון של הנבחרת שבחרתם בתחילת התחרות</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================================================
+     LEADERBOARD — surface-dark, product-mockup style
+     =================================================== -->
+<section class="lb-section section-pad" id="leaderboard">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">טבלת מובילים</span>
+      <h2 class="display-md">תחרות אמיתית בזמן אמת</h2>
+      <p class="section-lead">הדירוג מתעדכן חי — תוך שניות מסיום כל משחק תדעו בדיוק היכן אתם עומדים.</p>
+    </div>
+
+    <div class="lb-card">
+      <div class="lb-topbar">
+        <h3>טבלת המובילים הכללית</h3>
+        <div class="live-chip"><span class="dot"></span>Live</div>
+      </div>
+
+      <div class="lb-row">
+        <span class="lb-rank">🥇</span>
+        <div class="lb-user">
+          <div class="lb-av av1">👨</div>
+          <div class="lb-info"><span class="lb-name">אבי כהן</span><span class="lb-team">🇧🇷 ברזיל</span></div>
+        </div>
+        <div class="lb-pts-col"><span class="lb-pts">2,840</span><span class="lb-pts-sub">31/36 ניחושים</span></div>
+        <span class="lb-delta up">↑ +3</span>
+      </div>
+
+      <div class="lb-row">
+        <span class="lb-rank">🥈</span>
+        <div class="lb-user">
+          <div class="lb-av av2">👩</div>
+          <div class="lb-info"><span class="lb-name">מיה לוי</span><span class="lb-team">🇩🇪 גרמניה</span></div>
+        </div>
+        <div class="lb-pts-col"><span class="lb-pts">2,790</span><span class="lb-pts-sub">29/36 ניחושים</span></div>
+        <span class="lb-delta up">↑ +1</span>
+      </div>
+
+      <div class="lb-row">
+        <span class="lb-rank">🥉</span>
+        <div class="lb-user">
+          <div class="lb-av av3">🧑</div>
+          <div class="lb-info"><span class="lb-name">דן אברהם</span><span class="lb-team">🇫🇷 צרפת</span></div>
+        </div>
+        <div class="lb-pts-col"><span class="lb-pts">2,710</span><span class="lb-pts-sub">28/36 ניחושים</span></div>
+        <span class="lb-delta down">↓ -2</span>
+      </div>
+
+      <div class="lb-row">
+        <span class="lb-rank"><span class="rn">4</span></span>
+        <div class="lb-user">
+          <div class="lb-av av4">👩</div>
+          <div class="lb-info"><span class="lb-name">נועה שפירא</span><span class="lb-team">🇦🇷 ארגנטינה</span></div>
+        </div>
+        <div class="lb-pts-col"><span class="lb-pts">2,650</span><span class="lb-pts-sub">27/36 ניחושים</span></div>
+        <span class="lb-delta same">—</span>
+      </div>
+
+      <div class="lb-row me">
+        <span class="lb-rank"><span class="rn" style="color:var(--primary);">?</span></span>
+        <div class="lb-user">
+          <div class="lb-av av-me">⭐</div>
+          <div class="lb-info">
+            <span class="lb-name" style="color:var(--primary);">המקום שלי</span>
+            <span class="lb-team">הירשמו כדי להופיע כאן</span>
+          </div>
+        </div>
+        <div class="lb-pts-col">
+          <span class="lb-pts" style="color:var(--on-dark-soft);">— נק'</span>
+          <span class="lb-pts-sub"><a href="#register" style="color:var(--primary);">הירשמו →</a></span>
+        </div>
+        <span class="lb-delta same">—</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================================================
+     REGISTRATION FORM — dark surface
+     =================================================== -->
+<section class="form-section section-pad" id="register">
+  <div class="container">
+    <div class="form-layout">
+
+      <div class="form-pitch">
+        <h2>מוכנים לשנות<br/>את <span class="coral">חיי המשחק?</span></h2>
+        <p>הצטרפו לאלפי ישראלים שכבר בתחרות הגדולה של 2026. ההרשמה מהירה, הפרסים אמיתיים.</p>
+        <div class="trust-list">
+          <div class="trust-item"><span class="trust-check">✓</span> הרשמה ללא כרטיס אשראי</div>
+          <div class="trust-item"><span class="trust-check">✓</span> הנתונים שלכם מוגנים ופרטיים</div>
+          <div class="trust-item"><span class="trust-check">✓</span> פרסים מועברים תוך 24 שעות</div>
+          <div class="trust-item"><span class="trust-check">✓</span> פרופיט מורשית על-ידי רשות ההימורים</div>
+        </div>
+      </div>
+
+      <div class="form-card">
+        <h3>הירשמו לתחרות</h3>
+        <p class="form-sub">מלאו את הפרטים — 60 שניות ואתם בפנים</p>
+
+        <form id="reg-form" novalidate>
+          <div class="form-group">
+            <label class="form-label" for="full-name">שם מלא <span class="req">*</span></label>
+            <input class="form-input" type="text" id="full-name" name="full_name"
+              placeholder="לדוגמה: ישראל ישראלי" autocomplete="name" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="email">כתובת אימייל <span class="req">*</span></label>
+            <input class="form-input" type="email" id="email" name="email"
+              placeholder="your@email.com" dir="ltr" style="text-align:right;" autocomplete="email" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="phone">מספר טלפון <span class="req">*</span></label>
+            <input class="form-input" type="tel" id="phone" name="phone"
+              placeholder="050-000-0000" dir="ltr" style="text-align:right;" autocomplete="tel" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="team">הנבחרת המנצחת שלי <span class="req">*</span></label>
+            <div class="select-wrap">
+              <select class="form-select" id="team" name="team" required>
+                <option value="" disabled selected>בחרו נבחרת...</option>
+                <optgroup label="מועדפות">
+                  <option value="brazil">🇧🇷 ברזיל</option>
+                  <option value="argentina">🇦🇷 ארגנטינה</option>
+                  <option value="france">🇫🇷 צרפת</option>
+                  <option value="germany">🇩🇪 גרמניה</option>
+                  <option value="england">🏴󠁧󠁢󠁥󠁮󠁧󠁿 אנגליה</option>
+                  <option value="spain">🇪🇸 ספרד</option>
+                  <option value="portugal">🇵🇹 פורטוגל</option>
+                </optgroup>
+                <optgroup label="נבחרות נוספות">
+                  <option value="netherlands">🇳🇱 הולנד</option>
+                  <option value="italy">🇮🇹 איטליה</option>
+                  <option value="usa">🇺🇸 ארצות הברית</option>
+                  <option value="morocco">🇲🇦 מרוקו</option>
+                  <option value="japan">🇯🇵 יפן</option>
+                  <option value="senegal">🇸🇳 סנגל</option>
+                </optgroup>
+              </select>
+            </div>
+          </div>
+
+          <button type="submit" class="form-submit" id="submit-btn">
+            <span id="btn-text">הירשמו</span>
+            <span id="btn-icon">→</span>
+          </button>
+        </form>
+
+        <p class="form-note">
+          בלחיצה אתם מסכימים ל<a href="#">תנאי השירות</a> ו<a href="#">מדיניות הפרטיות</a>.
+          מיועד לגילאי 18 ומעלה בלבד.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ===================================================
+     TESTIMONIALS — canvas, feature-card style
+     =================================================== -->
+<section class="testi-section section-pad">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">משתתפים אומרים</span>
+      <h2 class="display-md">עשרות סוכנים<br/>כבר השתתפו בעבר</h2>
+    </div>
+    <div class="testi-grid">
+      <div class="testi-card">
+        <div class="stars">★★★★★</div>
+        <p class="testi-text">"עזבתי את הפניקס רק כדי לזכות בתחרות"</p>
+        <div class="testi-author">
+          <div class="t-avatar">👨</div>
+          <div><div class="t-name">דניאל כהן</div><div class="t-meta">תימורים</div></div>
+        </div>
+      </div>
+      <div class="testi-card">
+        <div class="stars">★★★★★</div>
+        <p class="testi-text">"הסיבה היחידה שאני חלק מבעלי הפועל ירושלים היא לחיות את הספורט בשביל לזכות בתחרות"</p>
+        <div class="testi-author">
+          <div class="t-avatar">👨</div>
+          <div><div class="t-name">ירון דוויק</div><div class="t-meta">תל אביב</div></div>
+        </div>
+      </div>
+      <div class="testi-card">
+        <div class="stars">★★★★★</div>
+        <p class="testi-text">"אני לא מבין בכלל בכדורגל אבל כנראה שאסיים ראשון"</p>
+        <div class="testi-author">
+          <div class="t-avatar">👨</div>
+          <div><div class="t-name">ליאור רובל</div><div class="t-meta">קרית אונו</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================================================
+     CTA BAND CORAL (DESIGN.md cta-band-coral)
+     =================================================== -->
+<section class="cta-section">
+  <div class="container">
+    <div class="cta-band-coral">
+      <h2 class="display-sm" style="color:var(--on-primary);">אל תישארו על הספסל</h2>
+      <p>אלפי ישראלים כבר רשומים. כל יום שעובר הם נקודות שאתם מפספסים.</p>
+      <div class="cta-actions">
+        <a href="#register" class="btn-secondary" style="background:var(--canvas);border-color:transparent;color:var(--ink);">הירשמו</a>
+        <a href="#prizes"   class="btn-text"      style="color:rgba(255,255,255,.85);">ראו את הפרסים →</a>
+      </div>
+      <p style="font-size:12px;color:rgba(255,255,255,.5);">ללא כרטיס אשראי · מיועד לגילאי 18+</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ===================================================
+     FOOTER — surface-dark (DESIGN.md footer)
+     =================================================== -->
+<footer class="site-footer">
+  <div class="container">
+
+    <div class="footer-brand">
+      <span style="font-size:22px;">⚽</span>
+      <span class="footer-wordmark">פרופיט</span>
+    </div>
+
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>מוצר</h4>
+        <ul>
+          <li><a href="#">תחרות המונדיאל</a></li>
+          <li><a href="#">טבלת מובילים</a></li>
+          <li><a href="#">ליגות פרטיות</a></li>
+          <li><a href="#">ניתוחי משחקים</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>תמיכה</h4>
+        <ul>
+          <li><a href="#">שאלות נפוצות</a></li>
+          <li><a href="#">צור קשר</a></li>
+          <li><a href="#">חוקי התחרות</a></li>
+          <li><a href="#">משחק אחראי</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>חברה</h4>
+        <ul>
+          <li><a href="#">אודות פרופיט</a></li>
+          <li><a href="#">קריירה</a></li>
+          <li><a href="#">עיתונות</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>משפטי</h4>
+        <ul>
+          <li><a href="#">תנאי שירות</a></li>
+          <li><a href="#">מדיניות פרטיות</a></li>
+          <li><a href="#">קוד הגינות</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 פרופיט בע"מ. כל הזכויות שמורות.</p>
+      <div class="footer-legal">
+        <a href="#">תנאי שירות</a>
+        <a href="#">פרטיות</a>
+        <a href="#">עוגיות</a>
+      </div>
+    </div>
+
+    <p class="footer-disclaimer">
+      ⚠️ הימורים מיועדים לבני 18 ומעלה בלבד. הימור עלול לגרום להתמכרות. משחק אחראי.
+      פנו לקו החם אם אתם זקוקים לעזרה: 1-800-000-000.
+      פרופיט בע"מ מורשית על-ידי רשות ההימורים בישראל.
+    </p>
+  </div>
+</footer>
+
+<iframe name="hidden-iframe" style="display:none;"></iframe>
+<div class="toast" id="toast">✅ &nbsp; נרשמתם בהצלחה! ברוכים הבאים לתחרות.</div>
+
+<script>
+/* Sticky header */
+const hdr = document.getElementById('site-header');
+window.addEventListener('scroll', () => {
+  hdr.classList.toggle('scrolled', window.scrollY > 10);
+}, { passive: true });
+
+
+/* Form */
+const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwFnhrKSP2SC94fucxmqwovLWUvzgNtEKup1mlpoBIBifJ11IIs8f_EbZvLuohEbM-qHQ/exec';
+
+const form = document.getElementById('reg-form');
+const toast = document.getElementById('toast');
+form.addEventListener('submit', async e => {
+  e.preventDefault();
+  const fields = ['full-name','email','phone','team'];
+  const vals = fields.map(id => document.getElementById(id)?.value?.trim());
+  if (vals.some(v => !v)) {
+    form.querySelectorAll(':required').forEach(f => {
+      if (!f.value.trim()) {
+        f.style.borderColor = '#c64545';
+        f.addEventListener('input', () => f.style.borderColor = '', { once: true });
+      }
+    });
+    return;
+  }
+
+  const btn = document.getElementById('submit-btn');
+  const txt = document.getElementById('btn-text');
+  const ico = document.getElementById('btn-icon');
+  btn.disabled = true;
+  txt.textContent = 'שולח...'; ico.textContent = '⏳';
+
+  const payload = {
+    full_name: vals[0],
+    email:     vals[1],
+    phone:     vals[2],
+    team:      vals[3],
+  };
+
+  // שליחה דרך hidden form → iframe (עובר את מגבלות CORS של Apps Script)
+  const hiddenForm = document.createElement('form');
+  hiddenForm.method = 'POST';
+  hiddenForm.action = APPS_SCRIPT_URL;
+  hiddenForm.target = 'hidden-iframe';
+
+  Object.entries(payload).forEach(([key, val]) => {
+    const input = document.createElement('input');
+    input.type = 'hidden';
+    input.name = key;
+    input.value = val;
+    hiddenForm.appendChild(input);
+  });
+
+  document.body.appendChild(hiddenForm);
+  hiddenForm.submit();
+  document.body.removeChild(hiddenForm);
+
+  setTimeout(() => {
+    txt.textContent = 'נרשמתם!'; ico.textContent = '✓';
+    btn.style.background = 'var(--success)';
+    toast.classList.add('show');
+    setTimeout(() => toast.classList.remove('show'), 4000);
+    form.reset();
+    setTimeout(() => {
+      btn.disabled = false;
+      btn.style.background = '';
+      txt.textContent = 'הירשמו';
+      ico.textContent = '→';
+    }, 4200);
+  }, 1500);
+});
+
+/* Smooth scroll */
+document.querySelectorAll('a[href^="#"]').forEach(a => {
+  a.addEventListener('click', e => {
+    const t = document.querySelector(a.getAttribute('href'));
+    if (t) { e.preventDefault(); t.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+  });
+});
+</script>
+
+</body>
+</html>
